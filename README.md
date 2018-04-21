@@ -1,5 +1,6 @@
 # EventX-ResizeObserver-event
-EventX ResizeObserver event (resize event for DOM Element and JQuery)
+* Allow programmer to bind resize event for DOM or HTML element in very simple syntax.
+* JQuery resize event for DOM or HTML element.
 
 # Install
 ## Browser
