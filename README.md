@@ -37,6 +37,8 @@ ro.observe(target[0]);
 ```
 **Note:** Above example require JQuery
 
+[View and play in JSFiddle](https://jsfiddle.net/Chomtana/fLe166sL/)
+
 ## After using this
 ```javascript
 $("#ex").on("resize",function(e) {
@@ -48,6 +50,8 @@ $("#ex").on("resize",function(e) {
 });
 ```
 **Note:** Above example require JQuery
+
+[View and play in JSFiddle](https://jsfiddle.net/Chomtana/zyjy6xsk/)
 
 ## Difference
 * First and final block obviously shorter.
@@ -69,4 +73,5 @@ Yeah, still simple and easy.
 **More detail about this library in this [example](https://jsfiddle.net/Chomtana/o3roqcc0/)**
 
 ## Example
-[High detail](https://jsfiddle.net/Chomtana/o3roqcc0/)
+* [Getting started](https://jsfiddle.net/Chomtana/zyjy6xsk/)
+* [High detail](https://jsfiddle.net/Chomtana/o3roqcc0/)
