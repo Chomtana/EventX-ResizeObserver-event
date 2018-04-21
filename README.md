@@ -52,3 +52,8 @@ $("#ex").on("resize",function(e) {
 * First and final block obviously shorter.
 * Closer to english language.
 * Remember easier.
+
+**More detail about this library in this [example](https://jsfiddle.net/Chomtana/o3roqcc0/)**
+
+## Example
+[High detail](https://jsfiddle.net/Chomtana/o3roqcc0/)
