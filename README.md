@@ -53,6 +53,18 @@ $("#ex").on("resize",function(e) {
 * Closer to english language.
 * Remember easier.
 
+## Without JQuery
+```javascript
+evx.on(document.getElementById("ex"),"resize",function(e) {
+```
+```javascript
+  if ($(this).width() < 50 || $(this).height() < 50) alert("Too small");
+```
+```javascript
+});
+```
+Yeah, still simple and easy.
+
 **More detail about this library in this [example](https://jsfiddle.net/Chomtana/o3roqcc0/)**
 
 ## Example
