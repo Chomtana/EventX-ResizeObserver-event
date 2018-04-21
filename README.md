@@ -80,21 +80,20 @@ Yeah, still simple and easy.
 ## Features
 ### On
 ```javascript
-$("#ex").on("resize",function(e) {
-  //e is a ResizeObserverEntry object
-  //this = target element
-  
-  console.log(e);
-});
+$("#ex").on("resize",function(e) { console.log(e,this); ... });
+evx.on(<target HTMLElement>,"resize",function(e) { console.log(e,this); ... });
 ```
-* View all coding style at http://api.jquery.com/on/
-* For more information about **ResizeObserverEntry** run console.log(e) or read [document](https://wicg.github.io/ResizeObserver/#resize-observer-entry-interface)
+* View all JQuery coding style at http://api.jquery.com/on/
+* e is a ResizeObserverEntry object
+* this = target element **(Warning: not working if you use arrow function)**
+* For more information about **ResizeObserverEntry** run console.log(e) in event handler or read [document](https://wicg.github.io/ResizeObserver/#resize-observer-entry-interface)
 
 ### Off
 ```javascript
 $("#ex").off("resize");
+evx.off(<target HTMLElement>,"resize",[handler (Optional)])
 ```
-* View all coding style at http://api.jquery.com/off/
+* View all JQuery coding style at http://api.jquery.com/off/
 
 ### Rename Event (Solve event name conflict)
 ```javascript
@@ -102,7 +101,7 @@ evx.renameEvent("resize","<newname>")
 ```
 
 ### Create new event type
-[Read at EventX-core](https://github.com/Chomtana/EventX-core)
+[Read at EventX-core](https://github.com/Chomtana/EventX-core#create-new-event)
 
 ### Remove event type
 [Read at EventX-core](https://github.com/Chomtana/EventX-core)
