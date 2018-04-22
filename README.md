@@ -2,11 +2,22 @@
 * Allow programmer to bind resize event for DOM or HTML element in very simple syntax.
 * JQuery resize event for DOM or HTML element.
 * You can rename event name with evx.renameEvent("resize","<newname>") if event name conflict with other library.
+  
+# Table of content
+* [Installation](#install)
+* [Why we need this ???](#why-we-need-this-)
+* [Examples](#examples)
+  * [For Getting started](https://jsfiddle.net/Chomtana/zyjy6xsk/)
+  * [High detail (Show both **on** and **off**)](https://jsfiddle.net/Chomtana/o3roqcc0/)
+* [Features](#features)
+  * [On](#on)
+  * [Off](#off)
+  * [Rename Event (Solve event name conflict)](#rename-event-solve-event-name-conflict)
 
 ## Install
 ### Browser
-```
-<script src="..."></script>
+```html
+<script src="https://cdn.rawgit.com/Chomtana/EventX-ResizeObserver-event/ec675c5c/dist/eventx-resize.js"></script>
 ```
 
 ### NPM
