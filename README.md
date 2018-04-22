@@ -81,6 +81,8 @@ Yeah, still simple and easy.
 ### On
 ```javascript
 $("#ex").on("resize",function(e) { console.log(e,this); ... });
+```
+```javascript
 evx.on(<target HTMLElement>,"resize",function(e) { console.log(e,this); ... });
 ```
 * View all JQuery coding style at http://api.jquery.com/on/
@@ -91,6 +93,8 @@ evx.on(<target HTMLElement>,"resize",function(e) { console.log(e,this); ... });
 ### Off
 ```javascript
 $("#ex").off("resize");
+```
+```javascript
 evx.off(<target HTMLElement>,"resize",[handler (Optional)])
 ```
 * View all JQuery coding style at http://api.jquery.com/off/
