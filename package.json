@@ -7,6 +7,10 @@
     "test": "webpack && babel src -d lib",
     "build": "webpack && babel src -d lib"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chomtana/EventX-ResizeObserver-event"
+  },
   "keywords": [
     "eventx",
     "ResizeObserver",
