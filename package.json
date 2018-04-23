@@ -1,6 +1,6 @@
 {
   "name": "eventx-resizeobserver-event",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Allow programmer to bind resize event for DOM or HTML element in very simple syntax (You can also use JQuery to bind resize event).",
   "main": "lib/resize.js",
   "scripts": {
