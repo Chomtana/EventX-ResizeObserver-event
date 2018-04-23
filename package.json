@@ -1,8 +1,8 @@
 {
   "name": "eventx-resizeobserver-event",
   "version": "0.1.0",
-  "description": "EventX ResizeObserver event (resize event for DOM Element)",
-  "main": "src/main.js",
+  "description": "Allow programmer to bind resize event for DOM or HTML element in very simple syntax (You can also use JQuery to bind resize event).",
+  "main": "lib/resize.js",
   "scripts": {
     "test": "webpack && babel src -d lib",
     "build": "webpack && babel src -d lib"
@@ -14,15 +14,26 @@
   "keywords": [
     "eventx",
     "ResizeObserver",
+    "resize-observer",
+    "resize-events",
+    "resize-DOM",
+    "resize-element",
+    "resize-html",
+    "resize-htmlelement",
     "resize",
     "event",
     "observer",
-    "jquery"
+    "jquery",
+    "DOM",
+    "HTML",
+    "HTMLElement",
+    "element"
   ],
   "author": "Chomtana",
   "license": "MIT",
   "dependencies": {
-    "eventx-core": "^0.1.3"
+    "eventx-core": "^0.1.3",
+    "npm": "^5.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.44",
