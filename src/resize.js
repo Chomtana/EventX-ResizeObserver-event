@@ -1,6 +1,6 @@
 import evx from 'eventx-core';
 
-if (!window.evx) window.evx = evx;
+if (!global.evx) global.evx = evx;
 
 evx.setting.resizeObserverFirstRun = true;
 
